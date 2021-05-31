@@ -40,7 +40,6 @@ function getCustDataFromServer()
     .catch((error)=> console.log("UI rendering Error:"+error));
 }
 
-
 function onEdit(td) {
    
     selectedRow = td.parentElement.parentElement;
@@ -112,7 +111,6 @@ function updateRecord(formData) {
     selectedRow.cells[1].innerHTML = formData.lastname;
     selectedRow.cells[2].innerHTML = formData.email;
     selectedRow.cells[3].innerHTML = formData.contact;
-
 }
 
 function insertNewRecord(data) {
