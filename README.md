@@ -1,2 +1,2 @@
 # NUSMoneyApp
-SQL project
+Full Stack project
