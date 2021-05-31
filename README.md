@@ -1,2 +1,2 @@
 # NUSMoneyApp
-Full Stack project
+Full Stack draft project
