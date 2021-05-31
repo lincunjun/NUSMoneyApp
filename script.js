@@ -155,30 +155,6 @@ function insertNewRecord(data) {
                        <a onClick="onDelete(this)">Delete</a>`;
 }
 
-// function postData() {
-//     var myHeaders = new Headers();
-//     myHeaders.append("Content-Type", "application/json");
-  
-//     // Populate this data from e.g. form.
-//     var raw = JSON.stringify({
-//       firstname: 0,
-//       lastname: "dixant mittal",
-//       email: "dixant@email.com",
-//       number: 0.5,
-//       id: 100000,
-//     });
-  
-//     var requestOptions = {
-//       method: "POST",
-//       headers: myHeaders,
-//       body: raw,
-//     };
-  
-//     fetch("http://localhost:3000/customer/add", requestOptions)
-//       .then((response) => response.text())
-//       .then((result) => $(".mypanel").html(result))
-//       .catch((error) => console.log("error", error));
-//   }
 
   function onDelete(td) {
     if (confirm('Are you sure to delete this record ?')) {
